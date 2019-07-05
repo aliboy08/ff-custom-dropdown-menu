@@ -11,9 +11,9 @@ if ($('.burger-menu-trigger').length) {
 			custom_dropdown_menu_close();
 		}
 	})
-}
 
-function custom_dropdown_menu_close() {
-	$('#ff-custom-dropdown-menu .burger-menu-trigger').removeClass('active');
-	$('#ff-custom-dropdown-menu .menu-container').removeClass('active');
+	function custom_dropdown_menu_close() {
+		$('#ff-custom-dropdown-menu .burger-menu-trigger').removeClass('active');
+		$('#ff-custom-dropdown-menu .menu-container').removeClass('active');
+	}
 }
